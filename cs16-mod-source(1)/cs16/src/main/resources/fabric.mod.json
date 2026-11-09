@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "cs16",
+  "version": "${version}",
+  "name": "Counter-Strike 1.6",
+  "description": "Оружие, магазин и деньги из CS 1.6",
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.cs16.Cs16Mod"
+    ],
+    "client": [
+      "com.cs16.Cs16Client"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
